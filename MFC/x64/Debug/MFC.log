@@ -1,0 +1,140 @@
+﻿生成启动时间为 2019/4/28 23:17:25。
+     1>项目“D:\test\MFC\MFC\MFC.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\MFC.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt "..\..\..\dlib-master\dlib\all\source.cpp" "..\..\..\dlib-master\examples\webcam_face_pose_ex.cpp" MFCDlg.cpp
+         MFCDlg.cpp
+     1>d:\opencvanddlib\dlib-19.16\dlib\image_transforms\morphological_operations.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         webcam_face_pose_ex.cpp
+     1>d:\dlib-master\examples\webcam_face_pose_ex.cpp(29): warning C4627: “#include <opencv2/opencv.hpp>”: 在查找预编译头使用时跳过
+         d:\dlib-master\examples\webcam_face_pose_ex.cpp(29): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\examples\webcam_face_pose_ex.cpp(30): warning C4627: “#include <dlib/opencv.h>”: 在查找预编译头使用时跳过
+         d:\dlib-master\examples\webcam_face_pose_ex.cpp(30): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\examples\webcam_face_pose_ex.cpp(31): warning C4627: “#include <opencv2/highgui/highgui.hpp>”: 在查找预编译头使用时跳过
+         d:\dlib-master\examples\webcam_face_pose_ex.cpp(31): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\examples\webcam_face_pose_ex.cpp(32): warning C4627: “#include <dlib/image_processing/frontal_face_detector.h>”: 在查找预编译头使用时跳过
+         d:\dlib-master\examples\webcam_face_pose_ex.cpp(32): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\examples\webcam_face_pose_ex.cpp(33): warning C4627: “#include <dlib/image_processing/render_face_detections.h>”: 在查找预编译头使用时跳过
+         d:\dlib-master\examples\webcam_face_pose_ex.cpp(33): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\examples\webcam_face_pose_ex.cpp(34): warning C4627: “#include <dlib/image_processing.h>”: 在查找预编译头使用时跳过
+         d:\dlib-master\examples\webcam_face_pose_ex.cpp(34): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\examples\webcam_face_pose_ex.cpp(35): warning C4627: “#include <dlib/gui_widgets.h>”: 在查找预编译头使用时跳过
+         d:\dlib-master\examples\webcam_face_pose_ex.cpp(35): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\examples\webcam_face_pose_ex.cpp(122): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         source.cpp
+     1>d:\dlib-master\dlib\all\source.cpp(7): warning C4627: “#include "../dlib_basic_cpp_build_tutorial.txt"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(7): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(11): warning C4627: “#include "../base64/base64_kernel_1.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(11): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(12): warning C4627: “#include "../bigint/bigint_kernel_1.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(12): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(13): warning C4627: “#include "../bigint/bigint_kernel_2.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(13): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(14): warning C4627: “#include "../bit_stream/bit_stream_kernel_1.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(14): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(15): warning C4627: “#include "../entropy_decoder/entropy_decoder_kernel_1.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(15): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(16): warning C4627: “#include "../entropy_decoder/entropy_decoder_kernel_2.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(16): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(17): warning C4627: “#include "../entropy_encoder/entropy_encoder_kernel_1.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(17): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(18): warning C4627: “#include "../entropy_encoder/entropy_encoder_kernel_2.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(18): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(19): warning C4627: “#include "../md5/md5_kernel_1.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(19): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(20): warning C4627: “#include "../tokenizer/tokenizer_kernel_1.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(20): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(21): warning C4627: “#include "../unicode/unicode.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(21): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(22): warning C4627: “#include "../data_io/image_dataset_metadata.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(22): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(23): warning C4627: “#include "../data_io/mnist.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(23): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(27): warning C4627: “#include "../dnn/cpu_dlib.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(27): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(28): warning C4627: “#include "../dnn/tensor_tools.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(28): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(36): warning C4627: “#include "../sockets/sockets_kernel_1.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(36): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(37): warning C4627: “#include "../bsp/bsp.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(37): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(39): warning C4627: “#include "../dir_nav/dir_nav_kernel_1.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(39): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(40): warning C4627: “#include "../dir_nav/dir_nav_kernel_2.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(40): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(41): warning C4627: “#include "../dir_nav/dir_nav_extensions.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(41): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(42): warning C4627: “#include "../linker/linker_kernel_1.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(42): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(43): warning C4627: “#include "../logger/extra_logger_headers.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(43): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(44): warning C4627: “#include "../logger/logger_kernel_1.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(44): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(45): warning C4627: “#include "../logger/logger_config_file.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(45): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(46): warning C4627: “#include "../misc_api/misc_api_kernel_1.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(46): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(47): warning C4627: “#include "../misc_api/misc_api_kernel_2.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(47): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(48): warning C4627: “#include "../sockets/sockets_extensions.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(48): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(49): warning C4627: “#include "../sockets/sockets_kernel_2.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(49): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(50): warning C4627: “#include "../sockstreambuf/sockstreambuf.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(50): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(51): warning C4627: “#include "../sockstreambuf/sockstreambuf_unbuffered.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(51): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(52): warning C4627: “#include "../server/server_kernel.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(52): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(53): warning C4627: “#include "../server/server_iostream.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(53): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(54): warning C4627: “#include "../server/server_http.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(54): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(55): warning C4627: “#include "../threads/multithreaded_object_extension.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(55): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(56): warning C4627: “#include "../threads/threaded_object_extension.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(56): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(57): warning C4627: “#include "../threads/threads_kernel_1.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(57): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(58): warning C4627: “#include "../threads/threads_kernel_2.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(58): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(59): warning C4627: “#include "../threads/threads_kernel_shared.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(59): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(60): warning C4627: “#include "../threads/thread_pool_extension.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(60): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(61): warning C4627: “#include "../threads/async.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(61): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(62): warning C4627: “#include "../timer/timer.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(62): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(63): warning C4627: “#include "../stack_trace.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(63): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(66): warning C4627: “#include "../image_loader/png_loader.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(66): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(67): warning C4627: “#include "../image_saver/save_png.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(67): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(71): warning C4627: “#include "../image_loader/jpeg_loader.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(71): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(72): warning C4627: “#include "../image_saver/save_jpeg.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(72): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(76): warning C4627: “#include "../gui_widgets/fonts.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(76): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(77): warning C4627: “#include "../gui_widgets/widgets.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(77): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(78): warning C4627: “#include "../gui_widgets/drawable.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(78): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(79): warning C4627: “#include "../gui_widgets/canvas_drawing.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(79): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(80): warning C4627: “#include "../gui_widgets/style.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(80): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(81): warning C4627: “#include "../gui_widgets/base_widgets.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(81): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(82): warning C4627: “#include "../gui_core/gui_core_kernel_1.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(82): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(83): warning C4627: “#include "../gui_core/gui_core_kernel_2.cpp"”: 在查找预编译头使用时跳过
+         d:\dlib-master\dlib\all\source.cpp(83): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\dlib-master\dlib\all\source.cpp(93): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         正在生成代码...
+     1>已完成生成项目“D:\test\MFC\MFC\MFC.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:01:00.84
